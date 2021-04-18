@@ -1,0 +1,7 @@
+ curl -X PUT -H "Content-Type: application/json" -d '{"auteur":{"id":26},"categorie":"Science","nom":"Math"}' http://localhost:8091/bibliotheque/livres/
+
+//search by param 
+
+curl -X GET http://localhost:8091/bibliotheque/Auteur/1/Livres
+
+// pour poster un livre il faut connaitre l'id de son auteur 

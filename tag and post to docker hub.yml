@@ -1,0 +1,6 @@
+docker built -t image_name .
+docker image tag iimage_name pcisse200/image_name:tag
+docker push  pcisse200/image_name:tag
+
+
+execute script.sh to launch the app wth mysql
